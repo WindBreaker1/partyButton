@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+}
+
+#main-div {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+position: relative;
+top: 230px;
+}
+  
+#main-button {
+width: 180px;
+height: 50px;
+border-radius: 50px;
+border: 2px solid black;
+cursor: pointer;
+}
+
+#main-button:active {
+opacity: 0.5;
+}
+  
+#text {
+font-family: Roboto, Verdana, Arial;
+font-size: 25px;
+margin: 30px;
+color: white;
+}
+
+#text-click {
+  font-family: Roboto, Verdana, Arial;
+  font-size: 25px;
+  margin: 30px;
+  color: white;
+}
